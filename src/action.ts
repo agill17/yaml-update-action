@@ -58,6 +58,7 @@ ${newYamlContent}
       )
     }
   } catch (error) {
+    // @ts-ignore
     actions.setFailed(error)
     return
   }
